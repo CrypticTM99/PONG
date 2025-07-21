@@ -1,0 +1,100 @@
+body {
+    background: #222;
+    color: #fff;
+    font-family: 'Ready 2P', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-screen {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(25, 25, 25, 0.98);
+    z-index: 10;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.main-title {
+    font-size: 4em;
+    color: #00cfff;
+    text-shadow: 0 0 32px #00cfff, 0 0 12px #fff;
+    margin-bottom: 2em;
+    letter-spacing: 0.12em;
+}
+
+.menu-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #fff;
+    text-shadow: 0 0 8px #00cfff66;
+}
+
+.menu-btn {
+    font-family: 'Ready 2P', Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 0.5em 2em;
+    margin: 0.5em;
+    border-radius: 12px;
+    border: none;
+    background: #00cfff;
+    color: #101922;
+    cursor: pointer;
+    box-shadow: 0 0 8px #00cfff88;
+    transition: background 0.18s;
+}
+.menu-btn:hover {
+    background: #00ffaf;
+}
+
+.setting-row {
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+
+#scoreBoard {
+    font-size: 2.2em;
+    color: #fff;
+    font-family: 'Ready 2P', Arial, sans-serif;
+    background: #000a;
+    letter-spacing: 0.05em;
+    border-radius: 10px;
+    box-shadow: 0 0 16px #00cfff33;
+    padding: 0.25em 1.2em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+
+.score-sep {
+    color: #00cfff;
+    font-weight: bold;
+    margin: 0 1em;
+    font-size: 1.25em;
+}
+
+canvas {
+    background: #111;
+    border: 2px solid #fff;
+    box-shadow: 0 0 16px #0008;
+    display: block;
+}
+
+#gameOverScreen p {
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 2em;
+}
